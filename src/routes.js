@@ -12,7 +12,6 @@ const profile = {
   "vacation-per-year": 6,
 };
 
-const basePath = __dirname + "/views";
 // req(request), res(response)
 routes.get("/", (req, res) => res.render(views + "index"));
 routes.get("/job", (req, res) => res.render(views + "job"));
