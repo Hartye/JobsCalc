@@ -13,7 +13,7 @@ module.exports = {
 
     // Transformar milisegundos em dias
     const dayInMs = 1000 * 60 * 60 * 24;
-    const dayDiff = Math.floor(timeDiffInMs / dayInMs);
+    const dayDiff = Math.ceil(timeDiffInMs / dayInMs);
 
     // Restam x dias
     return dayDiff;
